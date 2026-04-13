@@ -1,0 +1,86 @@
+site_name: Notas de Tomi — ICABA
+site_description: Apuntes de montañismo, anatomía y navegación del ICABA
+
+nav:
+  - Inicio: index.md
+  - Materias:
+      - "Para comenzar": Materias/Para comenzar las clases - Información.md
+      - "Anatomía y Fisiología":
+          - "Clase 01 - Introducción": Materias/Anatomía y Fisiología/Clase 01 - Introducción a Anatomía y Fisiología.md
+          - "Clase 02 - Sistema Óseo": Materias/Anatomía y Fisiología/Clase 02 - Sistema Óseo.md
+          - "Clase 03 - Articulaciones": Materias/Anatomía y Fisiología/Clase 03 - Articulaciones.md
+      - "Montañismo 1":
+          - "Clase 01 - Conceptos, Historia y Ética": Materias/Montañismo 1/Clase 01 - Conceptos, Historia y Ética.md
+          - "Clase 02 - Indumentaria y Equipo": Materias/Montañismo 1/Clase 02 - Indumentaria y Equipo.md
+          - "Clase 03 - Accesorios": Materias/Montañismo 1/Clase 03 - Accesorios.md
+      - "Orientación y Navegación":
+          - "Clase 01 - Introducción": Materias/Orientación y Navegación/Clase 01 - Introducción.md
+          - "Clase 02 - Lectura de Relieve": Materias/Orientación y Navegación/Clase 02 - Lectura de Relieve.md
+          - "Clase 03 - Tiempos de Marcha": Materias/Orientación y Navegación/Clase 03 - Tiempos de Marcha.md
+  - Entrenamiento:
+      - "Plan de entrenamiento": Entrenamiento/Plan de entrenamiento.md
+      - "Fuerza de dedos (Eva López – 7.3)": Entrenamiento/Fuerza de dedos (Eva López – 7.3).md
+      - "Rutina gimnasio (fuerza general)": Entrenamiento/Rutina gimnasio (fuerza general).md
+      - "Rehabilitación rodilla": Entrenamiento/Rehabilitación rodilla.md
+      - "Sesión tipo Bucarelli (2 horas)": Entrenamiento/Sesión tipo Bucarelli (2 horas).md
+  - Equipo:
+      - "Equipo actual": Equipo/Equipo actual.md
+
+theme:
+  name: material
+  language: es
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Cambiar a modo oscuro
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Cambiar a modo claro
+  font:
+    text: Inter
+    code: JetBrains Mono
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.sections
+    - navigation.path
+    - toc.integrate
+    - content.code.annotate
+    - content.code.copy
+    - content.tabs.link
+    - search.suggest
+    - search.highlight
+    - search.share
+    - header.autohide
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - tables
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
+      title: En esta página
