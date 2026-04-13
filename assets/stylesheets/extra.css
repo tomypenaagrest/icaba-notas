@@ -1,0 +1,388 @@
+/* ============================================================
+   ICABA Site — Mountain Theme
+   ============================================================ */
+
+/* --- Google Fonts --- */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@700;900&display=swap');
+
+/* --- Paleta de montaña --- */
+:root {
+  --md-primary-fg-color:        #1b4332;
+  --md-primary-fg-color--light: #2d6a4f;
+  --md-primary-fg-color--dark:  #0d2b1e;
+  --md-accent-fg-color:         #e07b39;
+  --md-accent-fg-color--transparent: #e07b3920;
+
+  --mountain-slate:    #2c3e50;
+  --mountain-fog:      #f0f4f0;
+  --mountain-snow:     #f2f5f2;
+  --mountain-peak:     #1b4332;
+  --mountain-orange:   #e07b39;
+  --mountain-stone:    #4a5e4e;
+
+  /* Texto principal — modo claro */
+  --md-default-fg-color:         #1a2e1f;
+  --md-default-fg-color--light:  #3a4e3f;
+  --md-default-fg-color--lighter:#4a6050;
+  --md-typeset-color:            #1a2e1f;
+}
+
+/* --- Tipografía --- */
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+.md-typeset h1,
+.md-typeset h2 {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.md-typeset h1 { font-size: 2.2em; color: var(--mountain-peak); }
+.md-typeset h2 { font-size: 1.6em; color: var(--mountain-slate); }
+.md-typeset h3 { font-weight: 600; color: var(--mountain-slate); }
+
+/* --- Texto — forzar contraste en modo claro --- */
+[data-md-color-scheme="default"] .md-typeset,
+[data-md-color-scheme="default"] .md-typeset p,
+[data-md-color-scheme="default"] .md-typeset li,
+[data-md-color-scheme="default"] .md-typeset td,
+[data-md-color-scheme="default"] .md-typeset span {
+  color: #1a2e1f !important;
+}
+
+/* --- Header / Navbar --- */
+.md-header {
+  background: linear-gradient(135deg, #0d2b1e 0%, #1b4332 60%, #2d6a4f 100%);
+  box-shadow: 0 2px 16px rgba(0,0,0,0.25);
+}
+
+.md-header__title {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 1.15rem;
+  font-weight: 700;
+  letter-spacing: 0.01em;
+}
+
+/* --- Navigation tabs --- */
+.md-tabs {
+  background: #145a32;
+}
+
+.md-tabs__link {
+  font-weight: 500;
+  font-size: 0.82rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  opacity: 0.8;
+  transition: opacity 0.2s;
+}
+
+.md-tabs__link:hover,
+.md-tabs__link--active {
+  opacity: 1;
+}
+
+.md-tabs__link--active::after {
+  background: var(--mountain-orange) !important;
+  height: 3px;
+}
+
+/* --- Sidebar --- */
+.md-nav__title {
+  font-weight: 600;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+/* Sidebar siempre tiene fondo oscuro — texto claro en ambos modos */
+.md-nav__link {
+  color: rgba(255,255,255,0.82) !important;
+  opacity: 1 !important;
+}
+
+.md-nav__link:hover {
+  color: white !important;
+}
+
+.md-nav__link--active {
+  color: white !important;
+  font-weight: 600;
+  border-left: 3px solid var(--mountain-orange);
+  padding-left: 0.5rem;
+}
+
+/* TOC (tabla de contenidos) — fondo claro, texto oscuro */
+.md-sidebar--secondary .md-nav__link {
+  color: #2c3e2e !important;
+}
+
+.md-sidebar--secondary .md-nav__link:hover {
+  color: var(--mountain-peak) !important;
+}
+
+.md-sidebar--secondary .md-nav__link--active {
+  color: var(--mountain-peak) !important;
+  border-left: 3px solid var(--mountain-orange);
+  padding-left: 0.5rem;
+}
+
+/* --- Fondo general --- */
+.md-main,
+.md-content,
+.md-content__inner,
+article {
+  background: transparent !important;
+}
+
+.md-main {
+  background: var(--mountain-snow) !important;
+}
+
+.md-main__inner {
+  max-width: 960px;
+}
+
+/* --- Hero a pantalla completa estilo Scarpa --- */
+.mountain-hero {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-top: -1.2rem;
+
+  background:
+    linear-gradient(to top, rgba(5,20,10,0.85) 0%, rgba(10,30,18,0.45) 50%, rgba(0,0,0,0.15) 100%),
+    url('../portada.jpg') center 40% / cover no-repeat;
+
+  min-height: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 3.5rem 3rem;
+  color: white;
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 3rem;
+}
+
+.mountain-hero h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3.2rem !important;
+  font-weight: 900 !important;
+  color: white !important;
+  line-height: 1.05 !important;
+  margin-bottom: 0.6rem !important;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  text-shadow: 0 2px 20px rgba(0,0,0,0.4);
+}
+
+.mountain-hero p {
+  color: rgba(255,255,255,0.85) !important;
+  font-size: 1.05rem;
+  font-weight: 300;
+  max-width: 480px;
+  margin-bottom: 0 !important;
+}
+
+.mountain-hero__badge {
+  display: inline-block;
+  background: transparent;
+  color: rgba(255,255,255,0.7);
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  border: 1px solid rgba(255,255,255,0.35);
+  padding: 0.3rem 0.8rem;
+  border-radius: 3px;
+  margin-bottom: 1.2rem;
+}
+
+/* --- Cards de inicio --- */
+.mountain-card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.25rem;
+  margin: 0 0 2rem;
+}
+
+.mountain-card {
+  background: white;
+  border-radius: 10px;
+  padding: 1.5rem;
+  border: 1px solid #dde8dd;
+  box-shadow: 0 2px 8px rgba(27,67,50,0.07);
+  transition: transform 0.2s, box-shadow 0.2s;
+  text-decoration: none !important;
+  color: inherit !important;
+  display: block;
+}
+
+.mountain-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 24px rgba(27,67,50,0.13);
+  border-color: var(--mountain-orange);
+}
+
+.mountain-card__icon {
+  font-size: 2rem;
+  margin-bottom: 0.75rem;
+  display: block;
+}
+
+.mountain-card__title {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: var(--mountain-peak);
+  margin-bottom: 0.35rem;
+}
+
+.mountain-card__desc {
+  font-size: 0.88rem;
+  color: var(--mountain-stone);
+  line-height: 1.5;
+}
+
+/* --- Admonitions --- */
+.md-typeset .admonition,
+.md-typeset details {
+  border-radius: 10px;
+  border-left-width: 4px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+/* --- Tablas — limpio, sin tricolor --- */
+.md-typeset table:not([class]) {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+  border: 1px solid #d0ddd0;
+  font-size: 0.9rem;
+}
+
+.md-typeset table:not([class]) th {
+  background: #2c3e50 !important;
+  color: white !important;
+  font-weight: 600;
+  font-size: 0.82rem;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding: 0.7rem 1rem;
+}
+
+/* Reset completo de filas — elimina el striping de Material */
+.md-typeset table:not([class]) tr td,
+.md-typeset table:not([class]) tr:nth-child(odd) td,
+.md-typeset table:not([class]) tr:nth-child(even) td {
+  background: white !important;
+  padding: 0.6rem 1rem;
+  border-bottom: 1px solid #e8ede8;
+  color: #1a2e1f !important;
+}
+
+.md-typeset table:not([class]) tr:last-child td {
+  border-bottom: none;
+}
+
+.md-typeset table:not([class]) tr:hover td {
+  background: #eef4ee !important;
+}
+
+/* --- Código --- */
+.md-typeset code {
+  background: #e8f0e8;
+  color: #1b4332;
+  border-radius: 4px;
+  padding: 0.1em 0.35em;
+  font-size: 0.88em;
+}
+
+/* --- Footer --- */
+.md-footer {
+  background: var(--mountain-slate);
+}
+
+.md-footer-meta {
+  background: #1e2d3a;
+}
+
+/* --- Búsqueda --- */
+.md-search__form {
+  border-radius: 8px;
+  background: rgba(255,255,255,0.12);
+}
+
+.md-search__form:hover,
+.md-search__form:focus-within {
+  background: rgba(255,255,255,0.2);
+}
+
+/* --- Scroll suave --- */
+html { scroll-behavior: smooth; }
+
+/* ============================================================
+   MODO OSCURO
+   ============================================================ */
+[data-md-color-scheme="slate"] {
+  --md-default-bg-color:         #111a14;
+  --md-default-fg-color:         #dceadc;
+  --md-default-fg-color--light:  #a8c4a8;
+  --md-typeset-color:            #dceadc;
+  --md-code-bg-color:            #0d1710;
+}
+
+[data-md-color-scheme="slate"] .md-main {
+  background: #111a14 !important;
+}
+
+[data-md-color-scheme="slate"] .md-typeset,
+[data-md-color-scheme="slate"] .md-typeset p,
+[data-md-color-scheme="slate"] .md-typeset li,
+[data-md-color-scheme="slate"] .md-typeset td,
+[data-md-color-scheme="slate"] .md-typeset span {
+  color: #dceadc !important;
+}
+
+[data-md-color-scheme="slate"] .md-typeset h1 { color: #a8d5b5 !important; }
+[data-md-color-scheme="slate"] .md-typeset h2 { color: #8fbfa0 !important; }
+[data-md-color-scheme="slate"] .md-typeset h3 { color: #8fbfa0 !important; }
+
+[data-md-color-scheme="slate"] .mountain-card {
+  background: #1a2b20;
+  border-color: #2d4435;
+  color: #dceadc !important;
+}
+
+[data-md-color-scheme="slate"] .mountain-card__title { color: #a8d5b5; }
+[data-md-color-scheme="slate"] .mountain-card__desc  { color: #7aaa88; }
+
+[data-md-color-scheme="slate"] .md-typeset table:not([class]) {
+  border-color: #2d4435;
+}
+
+[data-md-color-scheme="slate"] .md-typeset table:not([class]) th {
+  background: #1a2b20 !important;
+  color: white !important;
+}
+
+[data-md-color-scheme="slate"] .md-typeset table:not([class]) tr td,
+[data-md-color-scheme="slate"] .md-typeset table:not([class]) tr:nth-child(odd) td,
+[data-md-color-scheme="slate"] .md-typeset table:not([class]) tr:nth-child(even) td {
+  background: #141f18 !important;
+  color: #dceadc !important;
+  border-bottom-color: #2d4435;
+}
+
+[data-md-color-scheme="slate"] .md-typeset table:not([class]) tr:hover td {
+  background: #1f3328 !important;
+}
+
+[data-md-color-scheme="slate"] .md-typeset code {
+  background: #1a2e1f;
+  color: #a8d5b5;
+}
