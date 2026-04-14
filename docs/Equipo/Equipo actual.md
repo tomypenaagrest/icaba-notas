@@ -1,3 +1,5 @@
+
+
 | Categoría | Subcategoría | Equipo | Estado | Notas |
 |----------|-------------|--------|--------|------|
 | Escalada | Arnés | Varios arneses | OK | Uso deportivo |
@@ -10,11 +12,11 @@
 | Sistema | Cordines | Varios | Medio | Falta configurar sistemas |
 | Calzado | Escalada | Iati / Tanta | OK | |
 | Calzado | Aproximación | TX4 | OK | Limitado para montaña |
-| Nieve | Crampones | Simond | OK | Base correcta |
-| Nieve | Piqueta | Simond | OK | Base correcta |
-| General | Mochila | - | Falta | Prioridad |
-| General | Botas montaña | - | Falta | Decisión activa |
-| General | Abrigo técnico | - | Falta | Crítico |
+| Calzado | Montaña | Boreal Maipo T42 | OK | Usadas, buen estado |
+| Ropa | 3ra capa | Campera Aconcagua Ansilta | OK | |
+| Nieve | Crampones | - | Falta | Prioridad 1 |
+| Nieve | Piqueta | - | Falta | Prioridad 2 |
+| General | Mochila | - | Falta | Prioridad 3 (80 L) |
 | Rescate | Polea bloqueadora | - | Falta | Alta prioridad |
 | Rescate | Tornillos hielo | - | Falta | Próximo paso |
 
@@ -24,9 +26,9 @@
 
 | Prioridad | Ítem |
 |----------|------|
-| 1 | Botas de montaña |
-| 2 | Mochila 50–60 L |
-| 3 | Sistema de abrigo |
+| 1 | Crampones |
+| 2 | Piqueta |
+| 3 | Mochila 80 L |
 | 4 | Polea bloqueadora |
 | 5 | Tornillos de hielo |
 
