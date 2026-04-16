@@ -1,3 +1,4 @@
+
 ## 🧭 Conceptos clave
 
 ### Planimetría vs Altimetría
@@ -5,7 +6,7 @@
 - Altimetría → altura (3D simplificado)
 
 ### Curvas de nivel
-Líneas de igual altura
+Líneas de igual altura  
 → más juntas = más pendiente
 
 ### Equidistancia
@@ -22,7 +23,7 @@ Suma total de metros de ascenso
 
 ## 🧠 Explicación simple
 
-El mapa traduce la montaña (3D) a líneas (2D).
+El mapa traduce la montaña (3D) a líneas (2D).  
 Aprender a ver “volúmenes” en esas líneas es clave.
 
 ---
@@ -33,8 +34,10 @@ Aprender a ver “volúmenes” en esas líneas es clave.
   - cumbres
   - collados
   - mesetas
+
 - Calcular tiempos reales:
   - distancia + desnivel
+
 - Seguridad:
   - filos → mejor visibilidad
   - valles → posibles riesgos (agua, vegetación)

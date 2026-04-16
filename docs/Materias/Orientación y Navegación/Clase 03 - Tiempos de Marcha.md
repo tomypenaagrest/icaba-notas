@@ -20,7 +20,7 @@
 
 El tiempo estimado de marcha se calcula como:
 
-DC (km) / velocidad (km/h) = tiempo (h)
+:contentReference[oaicite:0]{index=0}
 
 ---
 
@@ -97,3 +97,9 @@ Al tiempo base hay que sumarle o restarle según:
 ---
 
 ## ❓ Preguntas / dudas abiertas
+
+- ¿Cómo varía mi velocidad personal al superar los 4000 msnm?  
+
+- ¿Qué margen de error considerar en terreno inestable (pedrero)?  
+
+- ¿Cómo afecta el error de lectura del relieve al elegir entre filo o valle?  

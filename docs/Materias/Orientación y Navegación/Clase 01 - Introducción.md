@@ -1,3 +1,4 @@
+
 ## 🧭 Conceptos clave
 
 ### Navegación terrestre
@@ -29,7 +30,7 @@ Capacidad de desplazarse conociendo en todo momento la posición propia.
 
 ## 🧠 Explicación simple
 
-Navegar no es saber dónde está el norte,
+Navegar no es saber dónde está el norte,  
 es saber **dónde estás vos en el terreno y en el mapa constantemente**.
 
 La herramienta principal es la **carta topográfica**, no el GPS.

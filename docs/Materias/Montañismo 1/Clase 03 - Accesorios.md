@@ -27,9 +27,11 @@ El cuerpo pierde calor por:
 
 - **Cabeza y cuello:**  
   30% a 50% de la pérdida total si no se cubren  
+
 - **Tórax e ingles:**  
   10% a 20%  
   👉 Albergan órganos vitales  
+
 - **Manos y pies:**  
   25% a 30%  
   👉 Primeras zonas en enfriarse  
@@ -64,6 +66,7 @@ El cuerpo pierde calor por:
 - **Fill Power (FP):**  
   Medida de calidad de la pluma (relación calor/peso)  
   👉 FP alto (800+) = más aire atrapado con menos peso  
+
 - **DWR (Durable Water Repellent):**  
   Tratamiento que hace que el agua "resbale"  
   👉 Evita saturación y permite respirabilidad  
@@ -94,4 +97,68 @@ Vestirse en capas (como una "cebolla") permite:
 ### 🧠 Prioridad térmica
 > "Para no tener frío en los pies hay que abrigarse la cabeza"
 
-- El cuerpo prioriza el núcleo
+- El cuerpo prioriza el núcleo  
+- Reduce circulación en extremidades  
+
+---
+
+### 💧 Secado rápido
+- Estar mojado acelera la pérdida de calor  
+- El agua conduce calor mucho más rápido que el aire  
+
+---
+
+## 🔍 Ejemplos prácticos
+
+### 🚫 Material prohibido
+- **Algodón:**  
+  - Retiene humedad  
+  - Se seca lento  
+  - Enfría el cuerpo  
+
+---
+
+### 🪶 Test de la pluma
+- Recuperación lenta → pluma de calidad  
+- Recuperación rápida → sintético o menor eficiencia  
+
+---
+
+### 🧦 Pies
+- Sistema de doble media:
+  - Liner (fina)  
+  - Media gruesa  
+- Reduce fricción y maneja humedad  
+
+- **Polainas:**  
+  Evitan entrada de nieve o piedras  
+
+---
+
+### 🧢 Cabeza
+- Buff → protección cuello/cara  
+- Máscaras de neoprene → ventiscas  
+
+---
+
+### 🧤 Manos
+- **Mitones:** más abrigo  
+- **Guantes:** más precisión  
+
+---
+
+### 🔧 Mantenimiento
+- Costuras termoselladas  
+- Cremalleras hidrofóbicas  
+
+👉 Clave para impermeabilidad en 3ra capa  
+
+---
+
+## ❓ Preguntas / dudas abiertas
+
+- ¿Cómo evaluar después de cada salida qué equipo fue realmente imprescindible y qué sobró?  
+
+- ¿Cuándo conviene usar Primaloft en lugar de pluma?  
+
+- ¿Mi calzado permite usar dos medias sin comprometer la circulación?  

@@ -1,3 +1,4 @@
+
 ## 🧭 Conceptos clave
 
 ### Definición de montañismo
@@ -8,9 +9,9 @@ Declarado Patrimonio Cultural Inmaterial por UNESCO (2019).
 ---
 
 ### Terminología
-- Alpinismo → Alpes
-- Andinismo → Andes
-- Himalayismo → Himalaya
+- Alpinismo → Alpes  
+- Andinismo → Andes  
+- Himalayismo → Himalaya  
 
 Todos describen la misma actividad.
 
@@ -18,26 +19,26 @@ Todos describen la misma actividad.
 
 ### Montañismo como deporte
 No cumple completamente con definición académica:
-- sin reglas estrictas
-- sin árbitros
+- sin reglas estrictas  
+- sin árbitros  
 
 Se define por:
-- lucha contra la naturaleza
-- superación personal
+- lucha contra la naturaleza  
+- superación personal  
 
 ---
 
 ### Hitos históricos
-- Mont Blanc (1786) → inicio del montañismo moderno
-- Aconcagua (1897)
-- Everest (1953)
+- Mont Blanc (1786) → inicio del montañismo moderno  
+- Aconcagua (1897)  
+- Everest (1953)  
 
 ---
 
 ### Principios éticos
-- Espíritu de equipo (la cuerda)
-- No dejar huella
-- Ayuda obligatoria
+- Espíritu de equipo (la cuerda)  
+- No dejar huella  
+- Ayuda obligatoria  
 
 ---
 
@@ -46,29 +47,31 @@ Se define por:
 El montañismo no es solo llegar a la cumbre.
 
 Es:
-- cómo llegás
-- con qué valores
-- con qué estilo
+- cómo llegás  
+- con qué valores  
+- con qué estilo  
 
 ---
 
 ## 🏔 Aplicación en montaña
 
-- Gestión de riesgo mediante capacitación
-- Honestidad en el estilo de ascenso
-- Decisiones éticas bajo presión
+- Gestión de riesgo mediante capacitación  
+- Honestidad en el estilo de ascenso  
+- Decisiones éticas bajo presión  
 
 ---
 
 ## 🧪 Ejemplos prácticos
 
 - Debate:
-  - oxígeno en Everest
-  - uso de helicópteros
+  - oxígeno en Everest  
+  - uso de helicópteros  
+
 vs
+
 - estilo alpino:
-  - liviano
-  - autónomo
+  - liviano  
+  - autónomo  
 
 ---
 

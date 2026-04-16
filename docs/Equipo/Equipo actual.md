@@ -1,5 +1,4 @@
-
-
+﻿
 | Categoría | Subcategoría | Equipo | Estado | Notas |
 |----------|-------------|--------|--------|------|
 | Escalada | Arnés | Varios arneses | OK | Uso deportivo |
@@ -13,10 +12,10 @@
 | Calzado | Escalada | Iati / Tanta | OK | |
 | Calzado | Aproximación | TX4 | OK | Limitado para montaña |
 | Calzado | Montaña | Boreal Maipo T42 | OK | Usadas, buen estado |
-| Ropa | 3ra capa | Campera Aconcagua Ansilta | OK | |
+| Ropa | 3ra capa | Campera Aconcagua Ansilta Gore-Tex | OK | Nueva compra |
 | Nieve | Crampones | - | Falta | Prioridad 1 |
 | Nieve | Piqueta | - | Falta | Prioridad 2 |
-| General | Mochila | - | Falta | Prioridad 3 (80 L) |
+| General | Mochila | Lowe Alpine Cerro Torre 65:85 | OK | Nueva compra |
 | Rescate | Polea bloqueadora | - | Falta | Alta prioridad |
 | Rescate | Tornillos hielo | - | Falta | Próximo paso |
 
@@ -28,7 +27,7 @@
 |----------|------|
 | 1 | Crampones |
 | 2 | Piqueta |
-| 3 | Mochila 80 L |
+| 3 | Carpa de 4 estaciones |
 | 4 | Polea bloqueadora |
 | 5 | Tornillos de hielo |
 

@@ -1,42 +1,44 @@
+
 ## 🧭 Conceptos clave
 
 ### Regla de oro
-"En altura, la velocidad es seguridad.
+"En altura, la velocidad es seguridad.  
 Pero sin calor, no hay velocidad."
 
 ---
 
 ### Sistema de capas
+
 #### 1ra capa (base)
-- Evacuar sudor
+- Evacuar sudor  
 - Materiales:
-  - sintéticos
-  - lana merino
+  - sintéticos  
+  - lana merino  
 
 ---
 
 #### 2da capa (aislamiento)
-- Retener calor
+- Retener calor  
 - Opciones:
-  - polar
-  - pluma
-  - primaloft
+  - polar  
+  - pluma  
+  - primaloft  
 
 ---
 
 #### 3ra capa (externa)
-- Protección climática
+- Protección climática  
 - Material:
-  - Gore-Tex
-  - membranas impermeables
+  - Gore-Tex  
+  - membranas impermeables  
 
 ---
 
 ### Pérdida de calor
-- Conducción
-- Convección
-- Radiación
-- Transpiración
+- Conducción  
+- Convección  
+- Radiación  
+- Transpiración  
 
 ---
 
@@ -51,16 +53,17 @@ Ej:
 ## 🧠 Explicación simple
 
 Vestirse como una "cebolla":
-- múltiples capas finas
-- ajustar según actividad
+
+- múltiples capas finas  
+- ajustar según actividad  
 
 ---
 
 ## 🏔 Aplicación en montaña
 
-- Balance peso vs protección
-- Evitar agotamiento por sobrecarga
-- Mantener temperatura corporal
+- Balance peso vs protección  
+- Evitar agotamiento por sobrecarga  
+- Mantener temperatura corporal  
 
 ---
 
@@ -72,8 +75,8 @@ Vestirse como una "cebolla":
 ---
 
 ### Test de pluma
-- Recupera volumen rápido → buena calidad
-- No recupera → sintético o mala calidad
+- Recupera volumen rápido → buena calidad  
+- No recupera → sintético o mala calidad  
 
 ---
 
